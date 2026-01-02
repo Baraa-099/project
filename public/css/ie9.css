@@ -1,0 +1,15 @@
+
+i:before{ line-height: 1.1 !important; }
+
+
+.offscreen-container{ -ms-transform: translateX(300px); }
+.offscreen-container.reveal-nav{ -ms-transform: translateX(0px); }
+.offscreen-menu .container.reveal-nav{ -ms-transform: translateX(-300px); }
+.offscreen-menu .container{ -ms-transform: translateX(0px); }
+.main-container.reveal-nav{ -ms-transform: translateX(-300px); }
+
+
+.social-bar .initial, .social-bar .hover-state{ -ms-transform: translateY(0px); }
+.social-bar .hover-state{ -ms-transform: translateY(200px); }
+.social-bar .link:hover .initial{ -ms-transform: translateY(-200px); }
+.social-bar .link:hover .hover-state{ -ms-transform: translateY(0px); }
